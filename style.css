@@ -1,23 +1,35 @@
 body{
     font-family:'Fredoka', sans-serif;
-    max-width: 980px;
+    max-width: 1080px; 
+	margin: 0 auto;
 }
 
 .container {
     margin: auto;
 }
 
-.header-section {
+.header {
     background-color: #1f2937;
     color:white;
+    padding: 15px 30px 40px 40px;
+}
+
+.header-section {
+    display:flex;
+    max-width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 30px 0 30px;
+
 }
 
 .nav {
-    width: 40%;
-    display:flex;
-    align-items: flex-end;
     justify-content: space-evenly;
-    flex-direction: row-reverse;
+    
+}
+.item{
+    padding: 0 10px 0 10px;
 }
 li {
     display: inline;
@@ -27,3 +39,42 @@ li a{
     color:white;
 
 }
+
+
+
+.head-section{
+    display:flex;
+    max-width: 100%;
+    padding: 15px 15px 15px 30px;
+}
+
+.head-section-right {
+    width: 90%;
+}
+
+
+.head-section-right img {
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    width: 60%;
+}
+
+.button {
+    background-color: #388286;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+
+}
+.body-section h2{
+    text-align: center;
+}
+
+.bio-img {
+    text-align: center;
+}
+
