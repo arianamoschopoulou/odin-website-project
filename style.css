@@ -11,7 +11,7 @@ body{
 .header {
     background-color: #1f2937;
     color:white;
-    padding: 15px 30px 40px 40px;
+
 }
 
 .header-section {
@@ -116,3 +116,23 @@ li a{
     border: #1f2937 solid 1px;
 }
 
+.quote-section{
+    width: 100%;
+    background-color: #e5e7eb;
+}
+blockquote {
+    max-width: 70%;
+    padding:50px 0px 50px 0px;
+    font-size: 36px;
+    text-align: center;
+    margin:0 auto;
+    width:auto;
+    
+}
+figcaption {
+    max-width: 70%;
+    padding-bottom:30px;
+    text-align:right;
+    margin:0 auto;
+
+}
