@@ -40,14 +40,11 @@ li a{
 
 }
 
-
-
 .head-section{
     display:flex;
     max-width: 100%;
     padding: 15px 15px 15px 30px;
 }
-
 
 .head-section-left {
     width: 50%;
@@ -61,10 +58,9 @@ li a{
     overflow: hidden
 }
 
-
 .head-section-right img {
     width: 100%;
-    height: auto;
+    height: 210px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -134,5 +130,41 @@ figcaption {
     padding-bottom:30px;
     text-align:right;
     margin:0 auto;
+
+}
+
+.footer-cta {
+    padding: 50px 100px 50px 100px;
+    color: white;
+}
+
+.cta-box {
+    background-color: #1f2937;
+    padding: 20px 70px 20px 70px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.left-cta-box {
+    width: 70%;
+    line-height:5px;
+}
+
+.right-cta-box {
+    padding:15px;
+}
+
+.button-footer {
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    border: white 1px solid;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+    justify-content: center;
+
 
 }
